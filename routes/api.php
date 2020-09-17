@@ -22,6 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/','PagesController@index');
 
+Route::get('/home','HomeController@index');
 
 Route::get('/about', 'PagesController@about');
 
